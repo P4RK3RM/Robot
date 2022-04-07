@@ -31,7 +31,7 @@ eyes_cascade = cv.CascadeClassifier()
 if not face_cascade.load(cv.samples.findFile('data/haarcascades/haarcascade_frontalface_alt.xml')):
     print('! NO FACE CASCADE FILE')
     exit(0)
-if not eyes_cascade.load(cv.samples.findFile('data/haarcascades/haarcascade_eye_tree_eyeglasses.xml')):
+if not eyes_cascade.load(cv.samples.findFile('data/haarcascades/haarcascade_eye.xml')):
     print('! NO EYES CASCADE FILE')
     exit(0)
 #Get incoming video stream from webcam
